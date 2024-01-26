@@ -3,7 +3,7 @@ pipeline {
     stages {
       stage('Build') {
           steps {
-            sh '/opt/apache-maven-3.9.6/bin/mvn -B -DskipTests clean package'
+            echo "Hellow world , not a java fan here for 1gb of ram of machine"
           }
         }
     }
